@@ -5,3 +5,38 @@
 html, body, h1, h2, h3, h4, h5, h6, p, a, div, span, li, input, button, textarea {
     font-family: 'EB Garamond', serif !important;
 }
+
+
+/* Background and Base Colors */
+body {
+    background-color: #f4f4f9;  /* Light grey or off-white for an elegant look */
+    color: #333333;  /* Dark grey text for readability and elegance */
+}
+
+/* Header and Navigation Bar */
+header, nav {
+    background-color: #333333;  /* Dark base color for the header */
+    color: #ffffff;  /* White text */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d4a373;  /* Warm accent color for hover effects (e.g., soft gold) */
+}
+
+/* Accent Colors for Titles and Links */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;  /* Dark navy blue for headers */
+}
+
+a {
+    color: #d4a373;  /* Accent color for links (gold tone) */
+}
+
+a:hover {
+    color: #2c3e50;  /* Dark navy hover effect */
+}
