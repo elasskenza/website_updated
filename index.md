@@ -15,11 +15,6 @@ elements:
   
 ---
 
-{% if page.url == "/" %}
-  <!-- This will only display on the homepage -->
-  <img src="/path-to-your-image/your-image.jpg" alt="Profile Picture" class="profile-image">
-{% endif %}
-
 
  I am a **Post-doctoral researcher** in economics at <img src="https://github.com/elasskenza/website/blob/main/assets/Bocconi.png?raw=true" width="100" height="650">  [University](https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home)    and the [Axa Gender Lab](https://genderlab.unibocconi.eu/)  
 {: .notice--accent}
