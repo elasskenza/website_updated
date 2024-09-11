@@ -15,8 +15,8 @@ body {
 
 /* Header and Navigation Bar */
 header, nav {
-    background-color: #333333;  /* Dark base color for the header */
-    color: #ffffff;  /* White text */
+    background-color: #f7fbfc;  /* Dark base color for the header */
+    color: #000000;  /* White text */
 }
 
 nav a {
@@ -25,16 +25,16 @@ nav a {
 }
 
 nav a:hover {
-    color: #d4a373;  /* Warm accent color for hover effects (e.g., soft gold) */
+    color: #cee5eb;  /* Warm accent color for hover effects (e.g., soft gold) */
 }
 
 /* Accent Colors for Titles and Links */
 h1, h2, h3, h4, h5, h6 {
-    color: #2c3e50;  /* Dark navy blue for headers */
+    color: #23609e;  /* Dark navy blue for headers */
 }
 
 a {
-    color: #d4a373;  /* Accent color for links (gold tone) */
+    color: #5393b8;  /* Accent color for links (gold tone) */
 }
 
 a:hover {
