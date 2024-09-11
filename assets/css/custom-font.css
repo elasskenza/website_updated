@@ -9,8 +9,8 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, div, span, li, input, button, textarea
 
 /* Background and Base Colors */
 body {
-    background-color: #f4f4f9;  /* Light grey or off-white for an elegant look */
-    color: #333333;  /* Dark grey text for readability and elegance */
+    background-color: #f7fbfc;  /* Light grey or off-white for an elegant look */
+    color: #080E4B;  /* Dark grey text for readability and elegance */
 }
 
 /* Header and Navigation Bar */
