@@ -139,6 +139,7 @@ Presentations: EALE 2023 (Scheduled), LAGV 2023, Ninth ECINEQ Meeting of The Soc
   <summary>Presentations</summary>
   Dondena AI and Society Initiative Seminar at Bocconi University
   </details>
+</div>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
