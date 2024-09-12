@@ -67,7 +67,7 @@ elements:
 
 ### *What do women want in a job? Household constraints, gender-biased decisions and the reservation wage gap*
 
-#### Draft available upon request 
+##### Draft available upon request 
 
 <div class="button-container">
 <details>
