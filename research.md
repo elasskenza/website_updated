@@ -43,6 +43,20 @@ elements:
     margin-top: 10px;
     border-radius: 3px;
   }
+
+  /* Ensures buttons (details) are aligned side by side */
+  .button-container {
+    display: flex;
+    gap: 10px; /* Adds spacing between buttons */
+    flex-wrap: wrap; /* Allows buttons to wrap if the screen is small */
+  }
+
+  /* Optional: Adjust for smaller screens */
+  @media (max-width: 600px) {
+    .button-container {
+      flex-direction: column;
+    }
+  }
 </style>
 
 
