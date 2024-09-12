@@ -16,7 +16,7 @@ elements:
     font-weight: bold;
     cursor: pointer;
     padding: 10px;
-    background-color: #15718c; /* Navy background */
+    background-color: #2a5866; /* Navy background */
     color: white; /* White text */
     border: 1px solid #001f3f;
     border-radius: 5px;
