@@ -16,14 +16,15 @@ elements:
     font-weight: bold;
     cursor: pointer;
     padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    background-color: #001f3f; /* Navy background */
+    color: white; /* White text */
+    border: 1px solid #001f3f;
     border-radius: 5px;
     width: fit-content;
   }
 
   summary:hover {
-    background-color: #e0e0e0;
+    background-color: #001a35; /* Slightly darker navy on hover */
   }
 
   details {
@@ -31,7 +32,7 @@ elements:
   }
 
   details[open] summary {
-    background-color: #e0e0e0;
+    background-color: #001a35; /* Change background when open */
   }
 
   .text-justify {
@@ -55,17 +56,18 @@ elements:
 #### Draft available upon request 
 
 <details>
-  <summary>**Abstract**</summary>
-  
-* Recent explanations of the gender wage gap emphasize the role of gender differences in job search, yet the role of household constraints remains underexplored. This paper uses French administrative data to investigate the importance of gender-specific decisions in the reservation wage gap, and specifically how household constraints shape women's reservation wage strategies. First, I assess the types of occupations that men and women apply for and the implications for the reservation wage gap. Using textual analysis, I create a novel dataset classifying occupations according to several characteristics related to temporal flexibility and job content. Quantile decomposition methods allow me to document an unequal gap in reservation wage, intensifying along the distribution, partially explained by gender biased choices in the amenities of the desired job. I then assess how a 2018 reform, which increased childcare benefits for single-parent households by 30%, influenced the reservation wage and job-search behaviour. Using a difference-in-difference strategy and spatial variation in childcare service availability, results indicate that the reduction in childcare costs led women to lower their reservation wage. I also find that more affordable access to flexible childcare increases the likelihood of targeting occupations requiring greater temporal flexibility and the desired maximum commute, thereby enabling them to secure more stable jobs upon re-employment.
-{: .text-justify}
+  <summary>Abstract</summary>
+    <p class="text-justify">
+  Recent explanations of the gender wage gap emphasize the role of gender differences in job search, yet the role of household constraints remains underexplored. This paper uses French administrative data to investigate the importance of gender-specific decisions in the reservation wage gap, and specifically how household constraints shape women's reservation wage strategies. First, I assess the types of occupations that men and women apply for and the implications for the reservation wage gap. Using textual analysis, I create a novel dataset classifying occupations according to several characteristics related to temporal flexibility and job content. Quantile decomposition methods allow me to document an unequal gap in reservation wage, intensifying along the distribution, partially explained by gender biased choices in the amenities of the desired job. I then assess how a 2018 reform, which increased childcare benefits for single-parent households by 30%, influenced the reservation wage and job-search behaviour. Using a difference-in-difference strategy and spatial variation in childcare service availability, results indicate that the reduction in childcare costs led women to lower their reservation wage. I also find that more affordable access to flexible childcare increases the likelihood of targeting occupations requiring greater temporal flexibility and the desired maximum commute, thereby enabling them to secure more stable jobs upon re-employment.
+  </p>
 </details>
 
 <details>
   <summary>Presentations</summary>
-
-  * EEA-ESEM 2024, EALE 2024, Junior Economist Meeting 2024, 2024 Junior Research Day at College de France, Afépop 2024, ADRES 2023, AFSE 2023, European Association of Labour Economists (EALE) Conference 2022, International Association for Applied Econometrics (IAAE) Conference 2022, LAGV 2022, JMA 2022, Food for Thought seminar at Bocconi University, Labour Chair Seminar at the Paris School of Economics, Firms and market seminar at CREST, Core Brown Bag Seminar at Louvain University, ADRES 2023 and PhD seminar at the Aix Marseille School of Economics
-  * Scheduled: AReena Job Market Symposium
+  <ul>
+    <li>  EEA-ESEM 2024, EALE 2024, Junior Economist Meeting 2024, 2024 Junior Research Day at College de France, Afépop 2024, ADRES 2023, AFSE 2023, European Association of Labour Economists (EALE) Conference 2022, International Association for Applied Econometrics (IAAE) Conference 2022, LAGV 2022, JMA 2022, Food for Thought seminar at Bocconi University, Labour Chair Seminar at the Paris School of Economics, Firms and market seminar at CREST, Core Brown Bag Seminar at Louvain University, ADRES 2023 and PhD seminar at the Aix Marseille School of Economics </li>
+    <li>Scheduled: AReena Job Market Symposium</li>
+  </ul>
 </details>
 
 # Publications
