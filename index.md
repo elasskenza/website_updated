@@ -18,7 +18,7 @@ elements:
  I am a **Post-doctoral researcher** in economics at <img src="https://github.com/elasskenza/website/blob/main/assets/Bocconi.png?raw=true" width="100" height="650">  [University](https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home)    and the [Axa Gender Lab](https://genderlab.unibocconi.eu/)  
 {: .notice--accent}
 
-![image-right]({{ '/assets/image0.jpeg' | absolute_url }}){: .align-right style="width: 50%;"}
+![image-right]({{ '/assets/image0.jpeg' | absolute_url }}){: .align-right style="width: 40%;"}
 
 * I will be on the **academic Job Market in 2024-2025**.
 
