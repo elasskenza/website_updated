@@ -58,10 +58,11 @@ elements:
     }
   }
 
-  /* Add margin to each section */
-  h1 {
-    margin-bottom: 20px; /* Adds space after headings and paragraphs */
-  }	
+/* Add vertical spacing before h1 */
+h1 {
+    margin-top: 40px; /* Adds vertical spacing before h1 */
+}
+
 </style>
 
 
