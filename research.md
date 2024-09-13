@@ -57,6 +57,11 @@ elements:
       flex-direction: column;
     }
   }
+
+  /* Add margin to each section */
+  h1 {
+    margin-bottom: 20px; /* Adds space after headings and paragraphs */
+  }	
 </style>
 
 
