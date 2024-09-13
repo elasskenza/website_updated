@@ -67,6 +67,13 @@ section {
     margin-top: 40px; /* Adds space before sections */
 }
 
+/* Center the specific page title with a class */
+.page-title {
+    text-align: center; /* Centers the title */
+    font-style: normal; /* Removes the italic style */
+}
+
+
 </style>
 
 
