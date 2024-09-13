@@ -88,6 +88,13 @@ elements:
 
 
 
+
+
+
+
+
+
+
 # Publications
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -110,6 +117,13 @@ elements:
 Presentations: EALE 2023 (Scheduled), LAGV 2023, Ninth ECINEQ Meeting of The Society for the Study of Economic Inequality, ECINEQ PhD Workshop participants at the London School of Economics, 14th Workshop on Labour Economics (IAAEU), the 4th QMUL Economics Workshop for PhD and Post-doctoral Students, the 2022 French Stata conference, PhD seminar at the Aix-Marseille School of Economics, Labour Chair seminar at the Paris School of Economics
 </details>
 </div>
+
+
+
+
+
+
+
 
 
 # Ongoing research - draft available upon request
@@ -155,10 +169,17 @@ Presentations: EALE 2023 (Scheduled), LAGV 2023, Ninth ECINEQ Meeting of The Soc
   </details>
 </div>
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 # Selected work in progress 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   *  **_Gender Norms and Child Development_**, with Hélène Le Forner (CREM) 
   * **_Changing the media narrative: the role of social movements_**, with Caroline Coly (IEB) and Mahima Vasishth (Bocconi University) 
