@@ -62,6 +62,10 @@ elements:
 h1 {
     margin-top: 40px; /* Adds vertical spacing before h1 */
 }
+	/* Add margin to a specific div or section containing the header */
+section {
+    margin-top: 40px; /* Adds space before sections */
+}
 
 </style>
 
