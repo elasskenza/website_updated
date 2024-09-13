@@ -104,7 +104,10 @@ section {
 
 
 
-
+<br>
+<br>
+<br>
+	
 # Publications
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,7 +137,9 @@ Presentations: EALE 2023 (Scheduled), LAGV 2023, Ninth ECINEQ Meeting of The Soc
 
 
 
-
+<br>
+<br>
+<br>
 
 # Ongoing research - draft available upon request
 
@@ -186,6 +191,9 @@ Presentations: EALE 2023 (Scheduled), LAGV 2023, Ninth ECINEQ Meeting of The Soc
 
 
 
+<br>
+<br>
+<br>
 
 # Selected work in progress 
 
