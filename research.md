@@ -148,19 +148,19 @@ Presentations: EALE 2023 (Scheduled), LAGV 2023, Ninth ECINEQ Meeting of The Soc
 <br>
 <br>
 
-# Ongoing research - draft available upon request
+# Working Papers
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### *Gender gaps in the urban wage premium*
- With Cecilia García-Peñalosa (AMSE, CNRS, EHESS) & Christian Schluter (AMSE)
+ With Cecilia García-Peñalosa (AMSE, CNRS, EHESS) & Christian Schluter (AMSE) - [Link to the Working Paper](https://drive.google.com/file/d/1J18zTnQztCXFyi2CPf6kuWhTB35S_e0U/view) -  [Appendix](https://drive.google.com/file/d/1XK1jeGmbXEah44l8Fp0DoNe3CYC6LRDc/view)
 
 <div class="button-container">
 <details>
   <summary>Abstract</summary>
     <p class="text-justify">
-	We examine the economic geography of gender wage gaps in France using panelised administrative data for the universe of French workers. Data indicates that the gender wage gap for the 20% of the workforce living in the densest locations is 22% lower than that for those living in the bottom 20% of the density distribution. Our objective is to determine whether the gender wage gap varies systematically across local labour markets, and if so, why?  Our findings indicate that women benefit relatively more from urban density than men, with an urban wage premium (return to urban density) 48% higher for women than for men. We then consider different underlying mechanisms and find that these factors explain the gender gap in the urban wage premium. While childcare facilities, returns to experience, and mostly local disparities in commuting time are important mechanisms, a major portion of the gender gap in returns to density is explained by the structure of the local labour market, notably, the extent of occupational segregation, linked to local gender norms.
+	We examine the economic geography of gender wage gaps to understand the role that location plays in gender earning differences. Using panelised administrative data for the universe of French workers, our findings indicate that women benefit relatively more from density than men, with an urban wage premium (return to urban density) 48% higher than for men. We identify a number of factors that explain this gap, with a large share being explained by the structure of the local labour market, notably, the extent of occupational segregation. Another important factor is commuting patterns, while childcare availability plays only a moderate role.
   </p>
 </details>
 
@@ -175,7 +175,7 @@ Presentations: EALE 2023 (Scheduled), LAGV 2023, Ninth ECINEQ Meeting of The Soc
 
 ### *Generative AI & Labor Market Discrimination*
  With Germain Gauthier (Bocconi University), Debora Nozza (Bocconi University) & Paola Profeta (Bocconi University)
-[Link to the AEA Pre-analysis Plan](https://www.socialscienceregistry.org/trials/13538/history/220793)
+[Link to the AEA Pre-analysis Plan](https://www.socialscienceregistry.org/trials/13538/history/220793) - draft available upon request
  
   <div class="button-container">
 <details>
