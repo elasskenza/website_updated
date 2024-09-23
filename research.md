@@ -146,3 +146,48 @@ With Germain Gauthier, Debora Nozza, Paola Profeta - [Link to Pre-analysis Plan]
 ## Selected Work in Progress
 - **Gender Norms and Child Development**, with Hélène Le Forner (CREM)
 - **Changing the media narrative: the role of social movements**, with Caroline Coly (IEB) and Mahima Vasishth (Bocconi University)
+- 
+
+!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Demo Portfolio</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-* Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>Unicorn slide<img src="assets/Bocconi.png" /></section>
+        <section>Cupcake slide <img scr "assets/Selection_wage.jpg"></section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // * https://revealjs.com/initialization/
+      // * https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
