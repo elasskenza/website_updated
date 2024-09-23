@@ -124,16 +124,7 @@ With Germain Gauthier, Debora Nozza, Paola Profeta - [Link to Pre-analysis Plan]
 - **Changing the media narrative: the role of social movements**, with Caroline Coly (IEB) and Mahima Vasishth (Bocconi University)
 - 
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
-</head>
-<body>
+ 
 
   <div class="reveal">
     <div class="slides">
