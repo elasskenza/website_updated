@@ -71,10 +71,7 @@ elements:
 
 # Research
 
-<!-- Start of reveal.js slides -->
-
-<section data-markdown>
-<script type="text/template">
+ 
 # Job Market Paper
 
 ### *What do women want in a job? Household constraints, gender-biased decisions and the reservation wage gap*
@@ -88,28 +85,7 @@ elements:
 ### Presentations
 - EEA-ESEM 2024, EALE 2024, Junior Economist Meeting 2024, ADRES 2023, AFSE 2023, etc.
 
-</script>
-</section>
-
-<!-- Slide for a Picture -->
-<section>
-    <h2>Slide 1 - Placeholder Image</h2>
-    <img src="https://via.placeholder.com/1024x768" alt="Placeholder Image 1" style="width:80%; height:auto;">
-</section>
-
-<!-- Slide for a Picture -->
-<section>
-    <h2>Slide 2 - Placeholder Image</h2>
-    <img src="https://via.placeholder.com/1024x768" alt="Placeholder Image 2" style="width:80%; height:auto;">
-</section>
-
-<!-- Slide for a Picture -->
-<section>
-    <h2>Slide 3 - Placeholder Image</h2>
-    <img src="https://via.placeholder.com/1024x768" alt="Placeholder Image 3" style="width:80%; height:auto;">
-</section>
-
-<!-- End of reveal.js slides -->
+ 
 
 ## Working Papers
 
