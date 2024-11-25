@@ -124,9 +124,14 @@ elements:
   <!-- Rotating Picture Carousel -->
   <div class="carousel">
     <div class="carousel-images">
-      <img src="https://via.placeholder.com/800x400?text=Image+1" alt="Image 1">
-      <img src="https://via.placeholder.com/800x400?text=Image+2" alt="Image 2">
-      <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3">
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_2.png" >
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_4.png" >
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_5.png" >
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_6.png" >
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_8.png" >
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_9.png" >
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_10.png" >
+      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_11.png" >
     </div>
     <div class="carousel-buttons">
       <button class="carousel-button prev">❮</button>
