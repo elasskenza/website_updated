@@ -121,23 +121,53 @@ elements:
 <section>
   <h1>Research</h1>
 
-  <!-- Rotating Picture Carousel -->
-  <div class="carousel">
-    <div class="carousel-images">
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_2.png" >
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_4.png" >
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_5.png" >
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_6.png" >
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_8.png" >
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_9.png" >
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_10.png" >
-      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_11.png" >
-    </div>
-    <div class="carousel-buttons">
-      <button class="carousel-button prev">❮</button>
-      <button class="carousel-button next">❯</button>
-    </div>
+<div class="carousel">
+  <div class="carousel-images">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_2.png" alt="Figure 2">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_4.png" alt="Figure 4">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_5.png" alt="Figure 5">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_6.png" alt="Figure 6">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_8.png" alt="Figure 8">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_9.png" alt="Figure 9">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_10.png" alt="Figure 10">
+    <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_11.png" alt="Figure 11">
   </div>
+  <div class="carousel-buttons">
+    <button class="carousel-button prev">❮</button>
+    <button class="carousel-button next">❯</button>
+  </div>
+</div>
+
+<script>
+  const carouselImages = document.querySelector('.carousel-images');
+  const images = document.querySelectorAll('.carousel img');
+  const prevButton = document.querySelector('.carousel-button.prev');
+  const nextButton = document.querySelector('.carousel-button.next');
+
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const width = images[0].clientWidth;
+    carouselImages.style.transform = `translateX(-${currentIndex * width}px)`;
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateCarousel();
+  }
+
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateCarousel();
+  }
+
+  nextButton.addEventListener('click', nextImage);
+  prevButton.addEventListener('click', prevImage);
+
+  // Auto-rotate every 3 seconds
+  setInterval(nextImage, 3000);
+</script>
+
   
 
   <h2>Job Market Paper</h2>
