@@ -124,20 +124,21 @@ elements:
   <!-- Rotating Picture Carousel -->
   <div class="carousel">
     <div class="carousel-images">
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_2.png" >
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_4.png" >
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_5.png" >
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_6.png" >
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_8.png" >
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_9.png" >
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_10.png" >
-      <img src="https://github.com/elasskenza/website/blob/main/assets/JMP/figure_11.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_2.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_4.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_5.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_6.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_8.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_9.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_10.png" >
+      <img src="https://raw.githubusercontent.com/elasskenza/website/blob/main/assets/JMP/figure_11.png" >
     </div>
     <div class="carousel-buttons">
       <button class="carousel-button prev">❮</button>
       <button class="carousel-button next">❯</button>
     </div>
   </div>
+  
 
   <h2>Job Market Paper</h2>
   <h3><i>What do women want in a job? Household constraints, gender-biased decisions, and the reservation wage gap</i></h3>
