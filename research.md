@@ -73,7 +73,7 @@ Draft available here: [Dropbox link](https://www.dropbox.com/scl/fi/vcikrhj1dvwr
 
 <details>
 <summary>Abstract</summary>
-Recent explanations of the gender wage gap emphasize the role of gender differences in job search, yet the role of household constraints remains underexplored. This paper uses French administrative data to investigate how childcare constraints shape women’s reservation wage and job search strategies...
+Recent explanations of the gender wage gap emphasize the role of gender differences in job search, yet the role of childcare constraints remains underexplored. This paper uses French administrative data to investigate how childcare constraints shape women’s reservation wage and job search strategies...
 </details>
 
 <details>
@@ -129,5 +129,6 @@ function prevImage() {
 nextButton.addEventListener('click', nextImage);
 prevButton.addEventListener('click', prevImage);
 
-setInterval(nextImage, 5000); // 5 seconds per slide
+// Auto-rotate every 10 seconds (10,000 milliseconds)
+setInterval(nextImage, 10000);
 </script>
