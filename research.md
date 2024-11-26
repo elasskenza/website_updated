@@ -86,7 +86,7 @@ section {
     flex: 1; /* Carousel takes up less space */
   }
 
- .carousel {
+.carousel {
   position: relative;
   max-width: 100%; /* Ensures the carousel fits its container */
   overflow: hidden;
@@ -107,11 +107,11 @@ section {
 .carousel-buttons {
   position: absolute;
   top: 50%; /* Vertically centers the buttons */
-  width: 100%; /* Ensures buttons cover the full carousel */
+  width: 100%; /* Ensures the buttons span the full width */
   display: flex;
-  justify-content: space-between; /* Pushes buttons to left and right */
+  justify-content: space-between; /* Pushes buttons to the left and right edges */
   transform: translateY(-50%); /* Aligns buttons with the middle of the carousel */
-  pointer-events: none; /* Allows clicks only on the buttons themselves */
+  pointer-events: none; /* Prevents blocking clicks on the carousel itself */
 }
 
 .carousel-button {
@@ -122,6 +122,7 @@ section {
   cursor: pointer;
   pointer-events: auto; /* Ensures buttons can be clicked */
   border-radius: 50%;
+  z-index: 2; /* Ensures the buttons appear above other content */
 }
 
 .carousel-button.prev {
@@ -135,6 +136,7 @@ section {
 .carousel-button:hover {
   background: rgba(0, 0, 0, 0.7); /* Slightly darker on hover */
 }
+
 
 </style>
 
