@@ -88,7 +88,7 @@ section {
 
   .carousel {
     position: relative;
-    max-width: 100%; /* Fits container */
+    max-width: 110%; /* Fits container */
     overflow: hidden;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -131,12 +131,12 @@ section {
 
 ### *What do women want in a job? Household constraints, gender-biased decisions and the reservation wage gap*
 
+##### Draft available here: [Dropbox link](https://www.dropbox.com/scl/fi/vcikrhj1dvwrig3jwfnvj/JMP_Kenza_Elass.pdf?rlkey=kncf3g3ofj1zgbz53vc098nuh&st=e6poxbut&dl=0)
+
 <div class="jmp-container">
   
 <!-- Left-hand side: Markdown content -->
 <div class="jmp-content">
-
-##### Draft available here: [Dropbox link](https://www.dropbox.com/scl/fi/vcikrhj1dvwrig3jwfnvj/JMP_Kenza_Elass.pdf?rlkey=kncf3g3ofj1zgbz53vc098nuh&st=e6poxbut&dl=0)
 
 <div class="button-container">
 <details>
