@@ -6,11 +6,73 @@ elements:
   - css
   - formatting
   - html
-  - markup
+  - markup  
+
 ---
 
 <style>
-  .jmp-container {
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #2a5866; /* Navy background */
+    color: white; /* White text */
+    border: 1px solid #001f3f;
+    border-radius: 5px;
+    width: fit-content;
+  }
+
+  summary:hover {
+    background-color: #001a35; /* Slightly darker navy on hover */
+  }
+
+  details {
+    margin-bottom: 15px;
+  }
+
+  details[open] summary {
+    background-color: #001a35; /* Change background when open */
+  }
+
+  .text-justify {
+    text-align: justify;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #ccc;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+
+  /* Ensures buttons (details) are aligned side by side */
+  .button-container {
+    display: flex;
+    gap: 10px; /* Adds spacing between buttons */
+    flex-wrap: wrap; /* Allows buttons to wrap if the screen is small */
+  }
+
+  /* Optional: Adjust for smaller screens */
+  @media (max-width: 600px) {
+    .button-container {
+      flex-direction: column;
+    }
+  }
+
+/* Add vertical spacing before h1 */
+h1 {
+    margin-top: 40px; /* Adds vertical spacing before h1 */
+}
+	/* Add margin to a specific div or section containing the header */
+section {
+    margin-top: 40px; /* Adds space before sections */
+}
+
+/* Center the specific page title with a class */
+.page-title {
+    text-align: center; /* Centers the title */
+    font-style: normal; /* Removes the italic style */
+}
+
+ .jmp-container {
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -58,33 +120,46 @@ elements:
     padding: 5px;
     cursor: pointer;
   }
+
 </style>
+
 
 # Job Market Paper
 
-<div class="jmp-container">
-  
-<!-- Left-hand side: Markdown content -->
-<div class="jmp-content">
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ### *What do women want in a job? Household constraints, gender-biased decisions and the reservation wage gap*
 
-Draft available here: [Dropbox link](https://www.dropbox.com/scl/fi/vcikrhj1dvwrig3jwfnvj/JMP_Kenza_Elass.pdf?rlkey=kncf3g3ofj1zgbz53vc098nuh&st=e6poxbut&dl=0)
+##### Draft available here: [Dropbox link](https://www.dropbox.com/scl/fi/vcikrhj1dvwrig3jwfnvj/JMP_Kenza_Elass.pdf?rlkey=kncf3g3ofj1zgbz53vc098nuh&st=e6poxbut&dl=0)
 
+<div class="button-container">
 <details>
-<summary>Abstract</summary>
-Recent explanations of the gender wage gap emphasize the role of gender differences in job search, yet the role of childcare constraints remains underexplored. This paper uses French administrative data to investigate how childcare constraints shape women’s reservation wage and job search strategies...
+  <summary>Abstract</summary>
+    <p class="text-justify">
+ Recent explanations of the gender wage gap emphasize the role of gender differences in job search, yet the role of childcare constraints remains underexplored. This paper uses French administrative data to investigate how childcare constraints shape women’s reservation wage and job search strategies. First, I assess the types of occupations that men and women apply for and the implications for the reservation wage gap. Using text analysis, I create a novel dataset classifying occupations based on amenities and job content. Quantile decomposition methods allow me to document an unequal gap in reservation wage, intensifying along the distribution, partially explained by gender biased choices in the temporal flexibility associated with the desired job.  Given that gender differences in targeted amenities may be shaped by childcare constraints, could a reduction in childcare costs change women's job search strategies? To address this question, I assess to which extent a 2018 reform, which increased childcare benefits for single-parent households by 30%, influenced the reservation wage and job-search strategies of women. Using a difference-in-difference strategy and spatial variation in childcare service availability, results indicate that the reduction in childcare costs led women to lower their reservation wages. However, I also find that more affordable access to flexible childcare increases the likelihood of targeting occupations requiring greater temporal flexibility and the desired maximum commute, thereby enabling them to secure more stable jobs and improve their reemployment outcomes. Lastly, I show that policies of childcare cost reduction are only truly effective when combined with childcare services availability.
+  </p>
 </details>
 
 <details>
-<summary>Presentations</summary>
-<ul>
-  <li>ECONtribute and C-SEB Design & Behavior Seminar at Cologne University</li>
-  <li>Areena JMC Symposium</li>
-</ul>
+  <summary>Presentations</summary>
+  <ul>
+    <li>  ECONtribute and C-SEB Design & Behavior Seminar at Cologne University, Areena JMC Symposium, EEA-ESEM 2024, EALE 2024, Junior Economist Meeting 2024, 2024 Junior Research Day at College de France, Afépop 2024, ADRES 2023, AFSE 2023, European Association of Labour Economists (EALE) Conference 2022, International Association for Applied Econometrics (IAAE) Conference 2022, LAGV 2022, JMA 2022, Food for Thought seminar at Bocconi University, Labour Chair Seminar at the Paris School of Economics, Firms and market seminar at CREST, Core Brown Bag Seminar at Louvain University, ADRES 2023 and PhD seminar at the Aix Marseille School of Economics </li>
+  </ul>
 </details>
-
 </div>
+
+<details>
+  <summary>Paper</summary>
+  <div style="overflow: auto; -webkit-overflow-scrolling: touch; margin-top: 10px;">
+    <iframe src="../assets/JMP_Kenza_Elass.pdf" style="width: 100%; height: 80vh;" frameborder="0">
+        This browser does not support PDFs. Please download the PDF to view it: 
+        <a href="../assets/JMP_Kenza_Elass.pdf">Download PDF</a>.
+    </iframe>
+  </div>
+</details>
+
+
 
 <!-- Right-hand side: Carousel -->
 <div class="jmp-carousel">
@@ -132,3 +207,153 @@ prevButton.addEventListener('click', prevImage);
 // Auto-rotate every 10 seconds (10,000 milliseconds)
 setInterval(nextImage, 10000);
 </script>
+
+
+
+
+<br>
+<br>
+<br>
+	
+# Publications
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### *[Male and female selection effects on gender wage gaps in three countries](https://www.sciencedirect.com/science/article/pii/S0927537124000022)*
+
+##### Published at Labour Economics  - [https://doi.org/10.1016/j.labeco.2024.102506](https://doi.org/10.1016/j.labeco.2024.102506)
+
+<div class="button-container">
+<details>
+  <summary>Abstract</summary>
+    <p class="text-justify">
+    A vast literature on gender wage gaps has examined the importance of selection into employment. However, most analyses have focused only on female labour force participation and gaps at the median. The Great Recession questions this approach because of the major shift in male employment that it implied. This paper uses the methodology proposed by Arellano and Bonhomme (2017) to estimate a quantile selection model over the period 2007–2018. Using a tax and benefit microsimulation model, I compute an instrument capturing both male and female decisions to participate in the labour market: the potential out-of-work income. Since my instrument is crucially determined by the welfare state, I consider three countries with notably different benefit systems – the UK, France, and Finland. My results imply different selection patterns across countries and a sizeable male selection in France and the UK. Correction for selection bias lowers the gender wage gap and reveals a substantial glass ceiling with different magnitudes. Findings suggest that disparities between these countries are driven by occupational segregation and public spending on families.
+  </p>
+</details>
+
+ 
+<details>
+  <summary>Presentations</summary>
+Presentations: EALE 2023, LAGV 2023, Ninth ECINEQ Meeting of The Society for the Study of Economic Inequality, ECINEQ PhD Workshop participants at the London School of Economics, 14th Workshop on Labour Economics (IAAEU), the 4th QMUL Economics Workshop for PhD and Post-doctoral Students, the 2022 French Stata conference, PhD seminar at the Aix-Marseille School of Economics, Labour Chair seminar at the Paris School of Economics
+</details>
+</div>
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+# Working Papers
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### *Gender gaps in the urban wage premium*
+ With Cecilia García-Peñalosa (AMSE, CNRS, EHESS) & Christian Schluter (AMSE) - [Link to the CEPR Working Paper](https://cepr.org/publications/dp19592) [Link to the CESifo Working Paper](https://www.cesifo.org/en/publications/2024/working-paper/gender-gaps-urban-wage-premium) -  [Appendix](https://drive.google.com/file/d/1XK1jeGmbXEah44l8Fp0DoNe3CYC6LRDc/view)
+
+<div class="button-container">
+<details>
+  <summary>Abstract</summary>
+    <p class="text-justify">
+	We examine the economic geography of gender wage gaps to understand the role that location plays in gender earning differences. Using panelised administrative data for the universe of French workers, our findings indicate that women benefit relatively more from density than men, with an urban wage premium (return to urban density) 48% higher than for men. We identify a number of factors that explain this gap, with a large share being explained by the structure of the local labour market, notably, the extent of occupational segregation. Another important factor is commuting patterns, while childcare availability plays only a moderate role.
+  </p>
+</details>
+
+<details>
+  <summary>Presentations</summary>
+  King’s Junior Research Day 2023, ADRES 2023, GRAPE 2023 Gender Gaps Conference, Bocconi Food for Thought seminar, PhD seminar at the Aix Marseille School of Economics, Paris School of Economics Labour Chair seminar; COSME workshop, 3rd Workshop on Public Policies, Urban Economics Association Conference 2024, IAAE Conference 2024
+  </details>
+</div>
+
+**Scheduled Presentation:** [CEPR MESIE Conference](https://cepr.org/events/third-middle-east-spatial-and-international-economics-conference-mesie)
+{: .notice--success}
+
+###### Communication:
+[Nada es Gratis](https://nadaesgratis.es/admin/la-geografia-de-las-desigualdades-salariales-entre-mujeres-y-hombres)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### *Generative AI & Labor Market Discrimination*
+ With Germain Gauthier (Bocconi University), Debora Nozza (Bocconi University) & Paola Profeta (Bocconi University)
+[Link to the AEA Pre-analysis Plan](https://www.socialscienceregistry.org/trials/13538/history/220793)  
+ 
+  <div class="button-container">
+<details>
+  <summary>Abstract</summary>
+    <p class="text-justify">
+	With the rise of Large Language Models (LLMs) -- such as OpenAI's ChatGPT -- there has been a proliferation of websites offering CV generation services for job seekers, as well as CV screening services for employers. We study the use of LLMs to produce and screen CVs of job applicants and make wage recommendations. We run a series of online experiments inspired by classical correspondence studies. Four main findings emerge. First, leading open-source and proprietary models typically produce gender-stereotyped CVs. Second, they discriminate against women. Consistent with theories of systemic discrimination, the bias against women increases if the models are used to produce and screen applicant packages. Third, when making salary recommendations,  LLMs consistently suggest lower earnings for women. Fourth, these effects are particularly pronounced in male-dominated or highly unequal occupations. Lastly, we also explore ways to mitigate these effects.
+  </p>
+</details>
+
+<details>
+  <summary>Presentations</summary>
+  Dondena AI and Society Initiative Seminar at Bocconi University, Advanced AI Methods Workshop
+  </details>
+</div>
+
+**Supported by the [Women and Science](https://dauphine.psl.eu/en/women-and-science) Chair Grant**
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+# Selected work in progress 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  *  **_Gender Norms and Child Development_**, with Hélène Le Forner (CREM) 
+  * **_Changing the media narrative: the role of social movements_**, with Caroline Coly (IEB) and Mahima Vasishth (Bocconi University)
+  * **_Is artificial intelligence turning the tables on gender wage inequality?_**, With Fabien Petit (UCL, University of Barcelona) and Paola Profeta (Bocconi University) 
+
+<br>
+<br>
+<br>
+
+
+<section>
+  <h2>Other Writing - General Audience</h2>
+
+
+  <h3><i>Threat or opportunity? The impact of AI on women</i></h3>
+  <p>With Paola Profeta (Bocconi University)</p>
+
+  <div class="button-container">
+    <details>
+      <summary>Abstract</summary>
+      <p class="text-justify">
+        The adoption of AI in various sectors has led to changes that present both opportunities and challenges for gender equality. Although AI appears to be less biased than human decision-makers, the literature also suggests it perpetuates stereotypes and inequalities between men and women. The unequal use of AI tools, combined with existing disparities in education and employment, may further disadvantage women in the labour market. In addition, AI's influence on employment, wage inequality and gender bias in healthcare has not been sufficiently studied, raising ethical questions about the fairness and transparency of these technologies. Addressing these challenges involves an increase in diversity in data-science teams, diverse and representative datasets, and promoting gender-inclusive training programs. Ultimately, the impact of AI on gender equality will depend on today's initiatives to neutralize the effects of AI.
+      </p>
+    </details>
+
+    <details>
+      <summary>Paper</summary>
+      <div>
+        <iframe src="../assets/pdf/Elass_profeta_AI_Gender.pdf" style="width: 100%; height: 80vh;" frameborder="0">
+          This browser does not support PDFs. Please download the PDF to view it:
+          <a href="../assets/pdf/Elass_profeta_AI_Gender.pdf">Download PDF</a>.
+        </iframe>
+      </div>
+    </details>
+  </div>
+
+  <div>
+    <h4>Communication</h4>
+    <p>
+      <a href="https://www.repubblica.it/dossier/economia/top-story/2024/11/11/news/ia_opportunita_e_minaccia_per_l_uguaglianza_di_genere-423611448/" target="_blank">
+        La Repubblica
+      </a>
+    </p>
+  </div>
+</section>
