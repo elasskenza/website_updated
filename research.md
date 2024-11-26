@@ -86,25 +86,25 @@ section {
     flex: 1; /* Carousel takes up less space */
   }
 
-  .carousel {
-    position: relative;
-    max-width: 110%; /* Fits container */
-    overflow: hidden;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
+ .carousel {
+  position: relative;
+  max-width: 100%; /* Ensures the carousel fits its container */
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
 
-  .carousel-images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
 
-  .carousel img {
-    width: 100%;
-    flex-shrink: 0;
-  }
+.carousel img {
+  width: 100%; /* Ensures the images fit the carousel width */
+  flex-shrink: 0;
+}
 
-  .carousel-buttons {
+.carousel-buttons {
   position: absolute;
   top: 50%; /* Vertically centers the buttons */
   width: 100%; /* Ensures buttons cover the full carousel */
