@@ -131,6 +131,11 @@ section {
 
 ### *What do women want in a job? Household constraints, gender-biased decisions and the reservation wage gap*
 
+<div class="jmp-container">
+  
+<!-- Left-hand side: Markdown content -->
+<div class="jmp-content">
+
 ##### Draft available here: [Dropbox link](https://www.dropbox.com/scl/fi/vcikrhj1dvwrig3jwfnvj/JMP_Kenza_Elass.pdf?rlkey=kncf3g3ofj1zgbz53vc098nuh&st=e6poxbut&dl=0)
 
 <div class="button-container">
@@ -159,7 +164,7 @@ section {
   </div>
 </details>
 
-
+</div>
 
 <!-- Right-hand side: Carousel -->
 <div class="jmp-carousel">
