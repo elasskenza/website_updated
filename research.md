@@ -105,21 +105,36 @@ section {
   }
 
   .carousel-buttons {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-  }
+  position: absolute;
+  top: 50%; /* Vertically centers the buttons */
+  width: 100%; /* Ensures buttons cover the full carousel */
+  display: flex;
+  justify-content: space-between; /* Pushes buttons to left and right */
+  transform: translateY(-50%); /* Aligns buttons with the middle of the carousel */
+  pointer-events: none; /* Allows clicks only on the buttons themselves */
+}
 
-  .carousel-button {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-  }
+.carousel-button {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  pointer-events: auto; /* Ensures buttons can be clicked */
+  border-radius: 50%;
+}
+
+.carousel-button.prev {
+  margin-left: 10px; /* Adds space between the button and the carousel edge */
+}
+
+.carousel-button.next {
+  margin-right: 10px; /* Adds space between the button and the carousel edge */
+}
+
+.carousel-button:hover {
+  background: rgba(0, 0, 0, 0.7); /* Slightly darker on hover */
+}
 
 </style>
 
@@ -129,9 +144,6 @@ section {
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### *What do women want in a job? Household constraints, gender-biased decisions and the reservation wage gap*
-
-##### Draft available here: [Dropbox link](https://www.dropbox.com/scl/fi/vcikrhj1dvwrig3jwfnvj/JMP_Kenza_Elass.pdf?rlkey=kncf3g3ofj1zgbz53vc098nuh&st=e6poxbut&dl=0)
 
 <div class="jmp-container">
   
