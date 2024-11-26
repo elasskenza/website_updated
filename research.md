@@ -88,10 +88,12 @@ section {
 
 .carousel {
   position: relative;
-  max-width: 100%; /* Ensures the carousel fits its container */
+  max-width: 600px; /* Define the maximum width of the carousel */
+  margin: 0 auto; /* Center the carousel */
   overflow: hidden;
   border: 1px solid #ddd;
   border-radius: 8px;
+  background: #f9f9f9; /* Optional: Add a background for visibility */
 }
 
 .carousel-images {
@@ -100,42 +102,43 @@ section {
 }
 
 .carousel img {
-  width: 100%; /* Ensures the images fit the carousel width */
+  width: 100%; /* Ensures images scale with the carousel width */
   flex-shrink: 0;
 }
 
 .carousel-buttons {
   position: absolute;
-  top: 50%; /* Vertically centers the buttons */
-  width: 100%; /* Ensures the buttons span the full width */
+  top: 50%; /* Vertically center the buttons */
+  width: 100%; /* The buttons span the entire carousel width */
   display: flex;
-  justify-content: space-between; /* Pushes buttons to the left and right edges */
-  transform: translateY(-50%); /* Aligns buttons with the middle of the carousel */
-  pointer-events: none; /* Prevents blocking clicks on the carousel itself */
+  justify-content: space-between; /* Position buttons to the left and right */
+  transform: translateY(-50%); /* Align with the middle of the carousel */
+  pointer-events: none; /* Prevent the buttons from blocking image clicks */
 }
 
 .carousel-button {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for buttons */
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 15px;
   cursor: pointer;
-  pointer-events: auto; /* Ensures buttons can be clicked */
+  pointer-events: auto; /* Allow buttons to be clickable */
   border-radius: 50%;
-  z-index: 2; /* Ensures the buttons appear above other content */
+  z-index: 2; /* Ensure buttons are above images */
 }
 
 .carousel-button.prev {
-  margin-left: 10px; /* Adds space between the button and the carousel edge */
+  margin-left: 10px; /* Slight space from the left edge */
 }
 
 .carousel-button.next {
-  margin-right: 10px; /* Adds space between the button and the carousel edge */
+  margin-right: 10px; /* Slight space from the right edge */
 }
 
 .carousel-button:hover {
-  background: rgba(0, 0, 0, 0.7); /* Slightly darker on hover */
+  background: rgba(0, 0, 0, 0.8); /* Darker background on hover */
 }
+
 
 
 </style>
@@ -195,8 +198,10 @@ section {
     <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_5.png" alt="Slide 3">
     <img src="https://raw.githubusercontent.com/elasskenza/website/main/assets/JMP/figure_6.png" alt="Slide 4">
   </div>
-  <button class="carousel-button prev">❮</button>
-  <button class="carousel-button next">❯</button>
+  <div class="carousel-buttons">
+    <button class="carousel-button prev">❮</button>
+    <button class="carousel-button next">❯</button>
+  </div>
 </div>
 
 </div>
@@ -228,7 +233,7 @@ function prevImage() {
 nextButton.addEventListener('click', nextImage);
 prevButton.addEventListener('click', prevImage);
 
-// Auto-rotate every 10 seconds (10,000 milliseconds)
+// Optional: Auto-rotate every 10 seconds
 setInterval(nextImage, 10000);
 </script>
 
